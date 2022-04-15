@@ -10,10 +10,13 @@ This example uses one extra content type:
 
 * name: **Conference**
 * elements:
-** title (text)
-** text (text)
-** URL slug (url slug)
-** URL slug history (custom element)
+  * title (text)
+  * text (text)
+  * URL slug (url slug)
+  * URL slug history (custom element)
+    * hosted code URL (see below)
+    * Allow the custom element to read values of specific elements: select the URL slug element
+    * Parameters (JSON): `{"urlSlugElementCodename": "url_slug"}` (use the URL slug element codename)
 
 ## Custom element
 
